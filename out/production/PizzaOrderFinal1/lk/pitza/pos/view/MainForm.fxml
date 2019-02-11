@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="root" prefHeight="427.0" prefWidth="606.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.pitza.pos.controller.MainFormController">
+   <children>
+      <ImageView fitHeight="456.0" fitWidth="656.0" layoutX="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assest/logo_ss_wood.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgcust" cache="true" fitHeight="119.0" fitWidth="105.0" layoutX="105.0" layoutY="72.0" onMouseClicked="#navigate" onMouseEntered="#playMouseEnterAnimation" onMouseExited="#playMouseExitAnimation" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assest/businessman.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="SW_RESIZE" />
+         </cursor>
+         <effect>
+            <ColorAdjust brightness="-0.09" contrast="1.0" hue="0.06" />
+         </effect>
+      </ImageView>
+      <Label layoutX="126.0" layoutY="179.0" text="Customer" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgItem" fitHeight="91.0" fitWidth="93.0" layoutX="286.0" layoutY="85.0" onMouseClicked="#navigate" onMouseEntered="#playMouseEnterAnimation" onMouseExited="#playMouseExitAnimation" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assest/pizzahut22.jpg" />
+         </image>
+         <effect>
+            <Glow level="0.0" />
+         </effect>
+      </ImageView>
+      <Label layoutX="311.0" layoutY="177.0" text="Item" textFill="#f8f7f1">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgOrder" fitHeight="130.0" fitWidth="129.0" layoutX="540.0" layoutY="59.0" onMouseClicked="#navigate" onMouseEntered="#playMouseEnterAnimation" onMouseExited="#playMouseExitAnimation" opacity="0.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assest/Pizza%20Italiano.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="589.0" layoutY="179.0" opacity="0.0" text="Order" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgEmp" cache="true" fitHeight="105.0" fitWidth="116.0" layoutX="454.0" layoutY="80.0" onMouseClicked="#navigate" onMouseEntered="#playMouseEnterAnimation" onMouseExited="#playMouseExitAnimation" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assest/cansolate.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="SW_RESIZE" />
+         </cursor>
+         <effect>
+            <ColorAdjust brightness="-0.09" contrast="1.0" hue="0.06" />
+         </effect>
+      </ImageView>
+      <Label layoutX="480.0" layoutY="179.0" text="Employee" textFill="#f2f0f0">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgReport" cache="true" fitHeight="93.0" fitWidth="93.0" layoutX="385.0" layoutY="213.0" onMouseClicked="#navigate" onMouseEntered="#playMouseEnterAnimation" onMouseExited="#playMouseExitAnimation" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assest/download.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="SW_RESIZE" />
+         </cursor>
+         <effect>
+            <ColorAdjust brightness="-0.09" contrast="1.0" hue="0.06" />
+         </effect>
+      </ImageView>
+      <Label layoutX="400.0" layoutY="307.0" prefHeight="20.0" prefWidth="54.0" text="Report" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgPlaceOrder" cache="true" fitHeight="91.0" fitWidth="105.0" layoutX="202.0" layoutY="213.0" onMouseClicked="#navigate" onMouseEntered="#playMouseEnterAnimation" onMouseExited="#playMouseExitAnimation" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assest/depositphotos_51432321-stockillustratie-bestel-nu-stempel.jpg" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="SW_RESIZE" />
+         </cursor>
+         <effect>
+            <ColorAdjust brightness="-0.09" contrast="1.0" hue="0.06" />
+         </effect>
+      </ImageView>
+      <Label layoutX="209.0" layoutY="307.0" text="Place Order" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="PizzaOrder">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dist/PizzaOrder.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
