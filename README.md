@@ -4,7 +4,7 @@ This is a project a done according to the standards of Layered Architecture Usin
 
 <h1>Technology Stack</h1>
 <b> JavaSE <br>
-<b> DBC <br>
+<b> JDBC <br>
 <b> JAVAFX <br> 
 <b> Gluon scene builder <br>
 <b> Jasper Reports <br>
